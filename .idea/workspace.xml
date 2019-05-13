@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="971497ca-2719-41de-8810-8d97d5527d88" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DBProgr/RegistrationSystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DBProgr/RegistrationSystem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DBProgr/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DBProgr/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/RegistrationSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RegistrationSystem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Student.java" afterDir="false" />
     </list>
@@ -17,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="270">
+              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -29,40 +32,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/RegistrationSystem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="141" column="12" selection-start-line="141" selection-start-column="12" selection-end-line="151" selection-end-column="9" />
+            <state relative-caret-position="27">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
               <folding>
+                <element signature="e#0#4131#0" expanded="true" />
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="682">
-              <caret line="190" column="8" selection-start-line="190" selection-start-column="8" selection-end-line="190" selection-end-column="8" />
+            <state relative-caret-position="172">
+              <caret line="211" column="34" lean-forward="true" selection-start-line="211" selection-start-column="34" selection-end-line="211" selection-end-column="34" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#0#65#0" />
                 <element signature="e#1689#2371#0" />
-                <element signature="docComment;method#calcGPA#0;class#Student#0" />
                 <element signature="method#calcGPA#0;class#Student#0" />
                 <element signature="e#3073#4254#1" />
                 <element signature="e#3122#3158#0" />
                 <element signature="docComment;method#checkDegree#0;class#Student#0" />
-                <element signature="e#0#135#0" />
                 <element signature="e#77#117#0" />
-                <element signature="e#6168#6169#0" expanded="true" />
-                <element signature="method#getName#0;class#Student#0" />
-                <element signature="e#1683#4650#0" />
                 <element signature="e#0#35#2" />
                 <element signature="e#1337#1382#0" />
-                <element signature="method#getDept#0;class#Student#0" />
                 <element signature="e#1333#1522#0" />
                 <element signature="e#0#40#2" />
                 <element signature="e#1550#1618#0" />
-                <element signature="method#getCredits#0;class#Student#0" />
                 <element signature="e#1698#1892#0" />
                 <element signature="e#0#39#2" />
                 <element signature="e#1920#1988#0" />
@@ -86,9 +84,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/RegistrationSystem.java" />
         <option value="$PROJECT_DIR$/src/Student.java" />
+        <option value="$PROJECT_DIR$/src/RegistrationSystem.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
   </component>
@@ -175,12 +173,12 @@
       <option name="presentableId" value="Default" />
       <updated>1557696943612</updated>
       <workItem from="1557696944887" duration="3524000" />
-      <workItem from="1557710008194" duration="12116000" />
+      <workItem from="1557710008194" duration="17059000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15640000" />
+    <option name="totallyTimeSpent" value="20583000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
@@ -195,7 +193,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3199703" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3199703" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -221,51 +219,46 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="172">
+          <caret line="211" column="34" lean-forward="true" selection-start-line="211" selection-start-column="34" selection-end-line="211" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#0#65#0" />
+            <element signature="e#1689#2371#0" />
+            <element signature="method#calcGPA#0;class#Student#0" />
+            <element signature="e#3073#4254#1" />
+            <element signature="e#3122#3158#0" />
+            <element signature="docComment;method#checkDegree#0;class#Student#0" />
+            <element signature="e#77#117#0" />
+            <element signature="e#0#35#2" />
+            <element signature="e#1337#1382#0" />
+            <element signature="e#1333#1522#0" />
+            <element signature="e#0#40#2" />
+            <element signature="e#1550#1618#0" />
+            <element signature="e#1698#1892#0" />
+            <element signature="e#0#39#2" />
+            <element signature="e#1920#1988#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/RegistrationSystem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="141" column="12" selection-start-line="141" selection-start-column="12" selection-end-line="151" selection-end-column="9" />
+        <state relative-caret-position="27">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
           <folding>
+            <element signature="e#0#4131#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Student.java">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="190" column="8" selection-start-line="190" selection-start-column="8" selection-end-line="190" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#65#0" />
-            <element signature="e#1689#2371#0" />
-            <element signature="docComment;method#calcGPA#0;class#Student#0" />
-            <element signature="method#calcGPA#0;class#Student#0" />
-            <element signature="e#3073#4254#1" />
-            <element signature="e#3122#3158#0" />
-            <element signature="docComment;method#checkDegree#0;class#Student#0" />
-            <element signature="e#0#135#0" />
-            <element signature="e#77#117#0" />
-            <element signature="e#6168#6169#0" expanded="true" />
-            <element signature="method#getName#0;class#Student#0" />
-            <element signature="e#1683#4650#0" />
-            <element signature="e#0#35#2" />
-            <element signature="e#1337#1382#0" />
-            <element signature="method#getDept#0;class#Student#0" />
-            <element signature="e#1333#1522#0" />
-            <element signature="e#0#40#2" />
-            <element signature="e#1550#1618#0" />
-            <element signature="method#getCredits#0;class#Student#0" />
-            <element signature="e#1698#1892#0" />
-            <element signature="e#0#39#2" />
-            <element signature="e#1920#1988#0" />
-          </folding>
+        <state relative-caret-position="270">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
         </state>
       </provider>
     </entry>

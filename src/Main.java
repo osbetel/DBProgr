@@ -9,10 +9,7 @@
 public class Main {
 
     public static void main(String[] args) {
-        String userid = "nguyena8";
-        String pass = "tRYoT^EK,}6f";
-
-        RegistrationSystem hw = new RegistrationSystem(userid, pass);
+        RegistrationSystem hw = new RegistrationSystem(args[0], args[1]);
         hw.run();
     }
 

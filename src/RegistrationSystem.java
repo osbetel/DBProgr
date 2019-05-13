@@ -21,8 +21,8 @@ public class RegistrationSystem {
     public RegistrationSystem(String userid, String pass) {
         this.userid = userid;
         this.pass = pass;
-//        connStr = "jdbc:mysql://mysql.cs.wwu.edu:3306/" + userid + "?useSSL=false";
-        connStr = "jdbc:mysql://localhost:3306/" + userid + "?useSSL=false"; //For ssh tunneling only
+        connStr = "jdbc:mysql://mysql.cs.wwu.edu:3306/" + userid + "?useSSL=false";
+//        connStr = "jdbc:mysql://localhost:3306/" + userid + "?useSSL=false"; //For ssh tunneling only
 
     }
 
@@ -55,19 +55,10 @@ public class RegistrationSystem {
         Scanner sc = new Scanner(System.in);
 
         try {
-//        student.getTranscript();
-            student.checkDegree();
-            System.exit(0);
-        } catch (SQLException ex) {
-            ex.printStackTrace();
-        }
-
-        try {
+            System.out.print("Please enter a command (type \"help\" for options): ");
             while (true) {
-                System.out.print("Please enter a command (type \"help\" for options): ");
                 String command = sc.next();
 
-                String courseId;
                 switch (command.toLowerCase()) {
                     case "get-transcript":
                         student.getTranscript();
@@ -78,17 +69,11 @@ public class RegistrationSystem {
                         break;
 
                     case "add-course":
-                        System.out.print("Input the Course ID of the course to add: ");
-                        courseId = sc.next();
-                        System.out.println();
-                        student.addCourse(courseId);
+                        student.addCourse();
                         break;
 
                     case "remove-course":
-                        System.out.print("Input the Course ID of the course to remove: ");
-                        courseId = sc.next();
-                        System.out.println();
-                        student.removeCourse(courseId);
+                        student.removeCourse();
                         break;
 
                     case "exit":
@@ -107,6 +92,9 @@ public class RegistrationSystem {
         }
     }
 
+    /**
+     * Query the user for ID number
+     */
     private String requestIDNumber() {
 
         String idnum = "-1";
@@ -128,27 +116,5 @@ public class RegistrationSystem {
             }
         }
         return idnum;
-    }
-
-    //Executes anything. Testing purposes only.
-    private void executeSQL(String query, Connection con) {
-
-        try {
-            Statement exec = con.createStatement();
-            ResultSet rs = exec.executeQuery(query);
-            ResultSetMetaData rsmd = rs.getMetaData();
-            int colIndex = rsmd.getColumnCount();
-
-            while (rs.next()) {
-                for (int i = 1; i <= colIndex; i++) {
-                    if (i > 1) System.out.print(",  ");
-                    String val = rs.getString(i);
-                    System.out.print(val + " " + rsmd.getColumnName(i));
-                }
-                System.out.println("");
-            }
-        } catch (SQLException sqlEx) {
-            System.out.println("Executed statement invalid.");
-        }
     }
 }
