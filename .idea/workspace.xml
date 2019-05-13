@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="971497ca-2719-41de-8810-8d97d5527d88" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_16.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DBProgr.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DBProgr.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DBProgr/JDBCDriver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DBProgr/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DBProgr/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DBProgr/RegistrationSystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DBProgr/RegistrationSystem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JDBCDriver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/RegistrationSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RegistrationSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Student.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,8 +29,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/RegistrationSystem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="743">
-              <caret line="92" column="33" selection-start-line="92" selection-start-column="33" selection-end-line="92" selection-end-column="33" />
+            <state relative-caret-position="383">
+              <caret line="141" column="12" selection-start-line="141" selection-start-column="12" selection-end-line="151" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,20 +41,31 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="815">
-              <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
-              <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
-              <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
-              <caret line="40" column="35" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
+            <state relative-caret-position="682">
+              <caret line="190" column="8" selection-start-line="190" selection-start-column="8" selection-end-line="190" selection-end-column="8" />
               <folding>
-                <element signature="e#479#480#0" expanded="true" />
-                <element signature="e#515#516#0" expanded="true" />
-                <element signature="e#548#549#0" expanded="true" />
-                <element signature="e#584#585#0" expanded="true" />
-                <element signature="e#631#632#0" expanded="true" />
-                <element signature="e#667#668#0" expanded="true" />
-                <element signature="e#717#718#0" expanded="true" />
-                <element signature="e#753#754#0" expanded="true" />
+                <element signature="e#0#65#0" />
+                <element signature="e#1689#2371#0" />
+                <element signature="docComment;method#calcGPA#0;class#Student#0" />
+                <element signature="method#calcGPA#0;class#Student#0" />
+                <element signature="e#3073#4254#1" />
+                <element signature="e#3122#3158#0" />
+                <element signature="docComment;method#checkDegree#0;class#Student#0" />
+                <element signature="e#0#135#0" />
+                <element signature="e#77#117#0" />
+                <element signature="e#6168#6169#0" expanded="true" />
+                <element signature="method#getName#0;class#Student#0" />
+                <element signature="e#1683#4650#0" />
+                <element signature="e#0#35#2" />
+                <element signature="e#1337#1382#0" />
+                <element signature="method#getDept#0;class#Student#0" />
+                <element signature="e#1333#1522#0" />
+                <element signature="e#0#40#2" />
+                <element signature="e#1550#1618#0" />
+                <element signature="method#getCredits#0;class#Student#0" />
+                <element signature="e#1698#1892#0" />
+                <element signature="e#0#39#2" />
+                <element signature="e#1920#1988#0" />
               </folding>
             </state>
           </provider>
@@ -171,12 +175,12 @@
       <option name="presentableId" value="Default" />
       <updated>1557696943612</updated>
       <workItem from="1557696944887" duration="3524000" />
-      <workItem from="1557710008194" duration="4156000" />
+      <workItem from="1557710008194" duration="12116000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7680000" />
+    <option name="totallyTimeSpent" value="15640000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
@@ -226,8 +230,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/RegistrationSystem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="743">
-          <caret line="92" column="33" selection-start-line="92" selection-start-column="33" selection-end-line="92" selection-end-column="33" />
+        <state relative-caret-position="383">
+          <caret line="141" column="12" selection-start-line="141" selection-start-column="12" selection-end-line="151" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -236,20 +240,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="815">
-          <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
-          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
-          <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
-          <caret line="40" column="35" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
+        <state relative-caret-position="682">
+          <caret line="190" column="8" selection-start-line="190" selection-start-column="8" selection-end-line="190" selection-end-column="8" />
           <folding>
-            <element signature="e#479#480#0" expanded="true" />
-            <element signature="e#515#516#0" expanded="true" />
-            <element signature="e#548#549#0" expanded="true" />
-            <element signature="e#584#585#0" expanded="true" />
-            <element signature="e#631#632#0" expanded="true" />
-            <element signature="e#667#668#0" expanded="true" />
-            <element signature="e#717#718#0" expanded="true" />
-            <element signature="e#753#754#0" expanded="true" />
+            <element signature="e#0#65#0" />
+            <element signature="e#1689#2371#0" />
+            <element signature="docComment;method#calcGPA#0;class#Student#0" />
+            <element signature="method#calcGPA#0;class#Student#0" />
+            <element signature="e#3073#4254#1" />
+            <element signature="e#3122#3158#0" />
+            <element signature="docComment;method#checkDegree#0;class#Student#0" />
+            <element signature="e#0#135#0" />
+            <element signature="e#77#117#0" />
+            <element signature="e#6168#6169#0" expanded="true" />
+            <element signature="method#getName#0;class#Student#0" />
+            <element signature="e#1683#4650#0" />
+            <element signature="e#0#35#2" />
+            <element signature="e#1337#1382#0" />
+            <element signature="method#getDept#0;class#Student#0" />
+            <element signature="e#1333#1522#0" />
+            <element signature="e#0#40#2" />
+            <element signature="e#1550#1618#0" />
+            <element signature="method#getCredits#0;class#Student#0" />
+            <element signature="e#1698#1892#0" />
+            <element signature="e#0#39#2" />
+            <element signature="e#1920#1988#0" />
           </folding>
         </state>
       </provider>

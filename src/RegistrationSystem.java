@@ -53,44 +53,57 @@ public class RegistrationSystem {
 
         // 2) Prompt user for what the want to do
         Scanner sc = new Scanner(System.in);
-        while (true) {
-            System.out.print("Please enter a command (type \"help\" for options): ");
-            String command = sc.next();
 
-            String courseId;
-            switch (command.toLowerCase()) {
-                case "get-transcript":
-                    student.getTranscript();
-                    break;
+        try {
+//        student.getTranscript();
+            student.checkDegree();
+            System.exit(0);
+        } catch (SQLException ex) {
+            ex.printStackTrace();
+        }
 
-                case "check-degree":
-                    student.checkDegree();
-                    break;
+        try {
+            while (true) {
+                System.out.print("Please enter a command (type \"help\" for options): ");
+                String command = sc.next();
 
-                case "add-course":
-                    System.out.print("Input the Course ID of the course to add: ");
-                    courseId = sc.next();
-                    System.out.println();
-                    student.addCourse(courseId);
-                    break;
+                String courseId;
+                switch (command.toLowerCase()) {
+                    case "get-transcript":
+                        student.getTranscript();
+                        break;
 
-                case "remove-course":
-                    System.out.print("Input the Course ID of the course to remove: ");
-                    courseId = sc.next();
-                    System.out.println();
-                    student.removeCourse(courseId);
-                    break;
+                    case "check-degree":
+                        student.checkDegree();
+                        break;
 
-                case "exit":
-                    System.exit(0);
-                    break;
+                    case "add-course":
+                        System.out.print("Input the Course ID of the course to add: ");
+                        courseId = sc.next();
+                        System.out.println();
+                        student.addCourse(courseId);
+                        break;
 
-                case "help":
-                    System.out.println("Available commands: get-transcript, check-degree, " +
-                                        "add-course, remove-course, exit");
-                    break;
+                    case "remove-course":
+                        System.out.print("Input the Course ID of the course to remove: ");
+                        courseId = sc.next();
+                        System.out.println();
+                        student.removeCourse(courseId);
+                        break;
+
+                    case "exit":
+                        System.exit(0);
+                        break;
+
+                    case "help":
+                        System.out.println("Available commands: get-transcript, check-degree, " +
+                                "add-course, remove-course, exit");
+                        break;
+                }
+                System.out.println();
             }
-            System.out.println();
+        } catch (SQLException sqlEx) {
+            System.out.println("Input invalid.");
         }
     }
 
