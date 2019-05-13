@@ -11,6 +11,7 @@ public class Main {
     public static void main(String[] args) {
         String userid = "nguyena8";
         String pass = "tRYoT^EK,}6f";
+
         RegistrationSystem hw = new RegistrationSystem(userid, pass);
         hw.run();
     }
